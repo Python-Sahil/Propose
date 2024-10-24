@@ -1,0 +1,67 @@
+  body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+        }
+
+ .container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+h1{
+    color: rgb(214, 25, 57);
+}
+#trickyButton {
+    position: absolute;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+        .container {
+            text-align: center;
+        }
+
+       
+        .container img {
+            max-width: 100%;
+            height: auto;
+            max-height: 300px; 
+            margin-bottom: 20px;
+            border-radius: 10px; 
+        }
+
+        /* Style the buttons */
+        .container button {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            color: white;
+            background-color: red;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        /* Change the button color on hover */
+        .container button:hover {
+            background-color: #45a049;
+        }
+
+        /* Style for the No button */
+        .no-button {
+            background-color: #f44336; /* Red background */
+        }
+
+        /* Change the No button color on hover */
+        .no-button:hover {
+            background-color: #e53935;
+        }
